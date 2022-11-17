@@ -6,9 +6,18 @@ public class Reina {
 
 	private Color color;
 	private Posicion posicion;
+	
 	public Reina() {
 		setColor(Color.BLANCO);
 	}
+	
+	public Reina(Color color) {
+		if (color == null) {
+			throw new NullPointerException("ERROR: El color no puede ser nulo.");
+		}
+		setColor(color);
+	}
+
 
 	public Color getColor() {
 		return color;
