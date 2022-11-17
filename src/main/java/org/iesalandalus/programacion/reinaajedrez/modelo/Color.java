@@ -8,5 +8,11 @@ public enum Color {
 
 	private Color(String cadenaAMostrar) {
 		this.cadenaAMostrar = cadenaAMostrar;
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%s", cadenaAMostrar);
 	}
 }
