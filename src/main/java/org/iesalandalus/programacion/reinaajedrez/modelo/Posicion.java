@@ -65,6 +65,5 @@ public class Posicion {
 	public String toString() {
 		return String.format("fila=%s, columna=%s", fila, columna);
 	}
-	
-	
+
 }
