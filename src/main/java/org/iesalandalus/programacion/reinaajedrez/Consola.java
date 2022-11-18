@@ -22,7 +22,7 @@ public class Consola {
 		int aux;
 
 		do {
-			System.out.println("Elige una opción válida: ");
+			System.out.print("Elige una opción válida: ");
 			aux = Entrada.entero();
 		} while ((aux < 1) || (aux > 4));
 
@@ -66,7 +66,7 @@ public class Consola {
 		int aux2;
 
 		do {
-			System.out.println("Introduce una dirección válida: ");
+			System.out.print("Introduce una dirección válida: ");
 			aux2 = Entrada.entero();
 		} while ((aux2 < 1) || (aux2 > 8));
 
