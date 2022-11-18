@@ -6,4 +6,9 @@ import org.iesalandalus.programacion.utilidades.Entrada;
 
 public class Consola {
 
+	public Consola() {
+
+	}
+
+
 }
